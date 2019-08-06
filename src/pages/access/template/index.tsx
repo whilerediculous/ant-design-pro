@@ -14,9 +14,7 @@ export default () => (
   <PageHeaderWrapper content="拓扑结构图是指由网络节点设备和通信介质构成的网络结构图">
     <GGEditor className={styles.editor}>
       <Row type="flex" className={styles.editorHd}>
-        <Col span={24}>
-          <KoniToolbar />
-        </Col>
+        <Col span={24}></Col>
       </Row>
       <Row type="flex" className={styles.editorBd}>
         <Col span={2} className={styles.editorSidebar}>

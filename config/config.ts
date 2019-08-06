@@ -89,6 +89,11 @@ export default {
       authority: ['admin', 'user'],
       routes: [
         {
+          name: 'basic-list',
+          path: '/basic-list',
+          component: './basic-list',
+        },
+        {
           path: '/',
           name: 'welcome',
           icon: 'smile',
@@ -97,12 +102,11 @@ export default {
         {
           path: '/access',
           name: '模块接入',
-
           routes: [
             {
               path: '/access/package',
               name: '安装包管理',
-              component: './404',
+              component: './404', //'./access/package/page',
             },
             {
               path: '/acess/module',
@@ -139,11 +143,11 @@ export default {
         {
           path: '/service',
           name: '应用管理',
-          component: './404',
           routes: [
             {
               path: '/service/creation',
-              name: '创建应用', // component: './service/Creation',
+              name: '创建应用',
+              component: './group/GraphCreate',
             },
             {
               path: '/service/list',
