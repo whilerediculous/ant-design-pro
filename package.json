@@ -62,7 +62,9 @@
     "bizcharts-plugin-slider": "^2.1.1-beta.1",
     "classnames": "^2.2.6",
     "dva": "^2.4.1",
+    "echarts": "^4.2.1",
     "gg-editor": "^2.0.4",
+    "hash.js": "^1.1.7",
     "lodash": "^4.17.11",
     "lodash-decorators": "^6.0.1",
     "memoize-one": "^5.0.4",
@@ -125,7 +127,7 @@
     "webpack-theme-color-replacer": "^1.2.15"
   },
   "optionalDependencies": {
-    "puppeteer": "^1.17.0"
+    "puppeteer": "^1.19.0"
   },
   "engines": {
     "node": ">=10.0.0"
